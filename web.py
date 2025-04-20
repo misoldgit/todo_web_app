@@ -16,9 +16,9 @@ if not os.path.exists(FILEPATH):
     with open(FILEPATH, "w") as file:
         pass
 
-st.title("Simon's Todo List")
-st.subheader("This is Simon's todo list")
-st.text("This app is to increase your productivity")
+st.title("My Todo List")
+st.subheader("This is my todo list")
+st.text("This app is to increase my productivity")
 
 for index, todo in enumerate(todos):
     check = st.checkbox(todo, key=todo)
